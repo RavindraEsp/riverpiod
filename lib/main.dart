@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_demo/simple_provider/home_screen.dart';
 import 'package:riverpod_demo/state_notifier_provider/crud/item_screen.dart';
+import 'package:riverpod_demo/state_notifier_provider/favorite/favorite_screen.dart';
 import 'package:riverpod_demo/state_notifier_provider/search_screen.dart';
 import 'package:riverpod_demo/state_provider/counter_screen.dart';
 
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
         ),
       //  home: const CounterScreen(),
       //  home: const SearchScreen(),
-        home: const ItemScreen(),
+      //  home: const ItemScreen(),
+        home: const FavouriteScreen(),
       ),
     );
   }
