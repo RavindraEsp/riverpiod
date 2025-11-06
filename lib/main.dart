@@ -5,6 +5,9 @@ import 'package:riverpod_demo/state_notifier_provider/crud/item_screen.dart';
 import 'package:riverpod_demo/state_notifier_provider/favorite/favorite_screen.dart';
 import 'package:riverpod_demo/state_notifier_provider/search_screen.dart';
 import 'package:riverpod_demo/state_provider/counter_screen.dart';
+import 'package:riverpod_demo/stream_provider/current_price_screen.dart';
+
+import 'future_provider/future_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +43,9 @@ class MyApp extends StatelessWidget {
       //  home: const CounterScreen(),
       //  home: const SearchScreen(),
       //  home: const ItemScreen(),
-        home: const FavouriteScreen(),
+      //  home: const FavouriteScreen(),
+       // home: const FutureScreen(),
+        home: const CurrentPriceScreen(),
       ),
     );
   }
